@@ -144,6 +144,10 @@ h2:after {
   margin-left: 300px;
 }
 
+iframe {
+  margin-left: 300px;
+}
+
 h3 {
   padding: 0.25em 0.5em;
   /*上下 左右の余白*/
