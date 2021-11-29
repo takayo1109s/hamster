@@ -52,6 +52,15 @@ header .gNav-menu li a {
   color: rgba(0, 0, 0, 0.527);
 }
 
+@media screen and (max-width: 768px) {
+  .ham_icon {
+    margin-left: 500px;
+  }
+  #gNav {
+    display: none;
+  }
+}
+
 .swiper {
   max-width: 900px;
   height: 500px;
@@ -122,6 +131,13 @@ h2:after {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  h2 {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+}
+
 .intro {
   margin-top: 20px;
   width: 20cm;
@@ -130,6 +146,12 @@ h2:after {
   color: #333;
   letter-spacing: 2px;
   line-height: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin: 0 auto;
+  }
 }
 
 .container {
@@ -142,6 +164,12 @@ h2:after {
 
 .kurohara {
   margin-left: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .kurohara {
+    margin: 0 auto;
+  }
 }
 
 iframe {
@@ -160,5 +188,20 @@ h3 {
   margin-left: 300px;
   font-size: 25px;
   margin-top: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  iframe {
+    margin: 0 auto;
+  }
+  h3 {
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
